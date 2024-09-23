@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./7.js"></script>
+</head>
+<body>
+    <button id="button" onclick="change()">Klikni pro změnu textu</button>
+    <form id="nameform" onsubmit="printName()">
+        <input type="text" id="name" name="name" placeholder="jmeno">
+        <input type="submit" value="Odeslat">
+    </form>
+    <form name="calculator" onsubmit="calculate()">
+        <input type="number" name="num1" id="num1" placeholder="číslo 1">
+        <input type="text" name="znamenko" id="znamenko" placeholder="znamenko">
+        <input type="number" name="num2" id="num2" placeholder="číslo 2">
+        <input type="submit" value="Spočítej">
+    </form>
+</body>
+</html>
